@@ -1,3 +1,24 @@
 [user]
-	name = ProMisDev
-	email = pro-mis-dev@protonmail.com
+	name = EdelByte
+	email = edel-byte@proton.me
+
+[pull]
+	rebase = true
+
+[init]
+	defaultBranch = main
+
+[push]
+	autoSetupRemote = true
+
+[rerere]
+	enabled = true
+
+[diff]
+	algorithm = histogram
+
+[merge]
+	conflictstyle = zdiff3
+
+[fetch]
+	prune = true
