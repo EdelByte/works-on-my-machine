@@ -7,6 +7,7 @@ Dotfiles and configs
 - `.gitconfig` — Git configuration
 - `warp/settings.toml` — Warp terminal settings (theme, font, input mode, notifications, secret regexes)
 - `bashrc.d/personal.sh` — Shell aliases and functions (cross-distro, sourced via `~/.bashrc.d/`)
+- `install-fedora.sh` — DNF setup for Brave, Warp, qBittorrent, and GitHub CLI
 
 ## Install
 
@@ -15,4 +16,10 @@ git clone https://github.com/EdelByte/works-on-my-machine.git ~/repos/works-on-m
 cd ~/repos/works-on-my-machine
 chmod +x install.sh
 ./install.sh
+```
+
+On Fedora or another DNF-based distribution:
+
+```bash
+./install-fedora.sh
 ```
